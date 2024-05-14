@@ -1,5 +1,6 @@
 import random
 import os # limpar tela 
+
 def escolheNumJogador(): # pegar o numero de jogadores
     numero = [0,1,2,3]
     numJoadores = int(input('Quantos jogadores irão jogar nesta partida (1,2 ou 3): \n '))
